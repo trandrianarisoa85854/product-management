@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>io.ennov</groupId>
-    <artifactId>product-management</artifactId>
+    <artifactId>product-management-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>product-management</name>
     <description>product-management</description>
