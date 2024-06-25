@@ -1,0 +1,97 @@
+.card {
+    width: 330px;
+
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.25);
+
+    padding: 17px 17px 17px 17px;
+    color: #000;
+
+    overflow: hidden;
+    font-weight: 700;
+
+    margin: 10px;
+}
+
+.image-container,
+.card-content-flex,
+.card-container-buttons,
+.card-descripcion-name {
+    padding-bottom: 5px;
+}
+
+.image-container img {
+    width: 317px;
+    height: 293px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 15px;
+
+    transition: all 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.04);
+}
+
+.card-content-flex {
+    display: flex;
+}
+
+.card-name-container {
+    font-size: 20px;
+    max-width: 300px;
+}
+
+.card-price-container {
+    font-size: 22px;
+    margin-left: auto;
+    padding-left: 5px;
+}
+
+.card-descripcion-name {
+    font-size: 13px;
+}
+
+.card-descripcion {
+    font-size: 13px;
+    line-height: normal;
+    overflow: hidden;
+}
+
+.card-button {
+    width: 30px;
+    height: 30px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 6px;
+    background: #EFEFEF;
+}
+
+.card-content-flex {
+    display: flex;
+    align-items: center;
+}
+
+.card-container-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.card-button {
+    margin-right: 8px;
+}
+
+.edit-button {
+    cursor: pointer;
+}
+
+.delete-button {
+    cursor: pointer;
+}
+
+.card-button svg {
+    margin: 0 auto;
+    transform: scale(1.4);
+}

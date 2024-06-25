@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-VariableFont_slnt,wght.ttf') format('woff2'),
+    url('fonts/Inter-VariableFont_slnt,wght.ttf') format('woff');
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #F3F3F3;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
