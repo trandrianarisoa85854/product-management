@@ -33,6 +33,6 @@
         - npm install
         - npm start
     - test : 
-        - url : http://localhost:3000/
+        - url : http://localhost:3000/login
         - user : john.doe@gmail.com
         - password : 123
