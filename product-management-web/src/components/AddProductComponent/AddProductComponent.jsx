@@ -35,7 +35,6 @@ const AddProductComponent = () => {
                 console.log(response.data);
                 setTimeout(()=>{
                     navigate("/products");
-                    // window.location.reload();
                 },1000);
             }).catch(error => {
                 console.log(error);
@@ -47,7 +46,6 @@ const AddProductComponent = () => {
                 console.log(response.data);
                 setTimeout(()=>{
                     navigate("/products");
-                    // window.location.reload();
                 },1000);
             }).catch(error => {
                 console.log(error);

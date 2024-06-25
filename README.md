@@ -22,9 +22,6 @@
 	- http://localhost:8080/api-docs
     - http://localhost:8080/swagger-ui/index.html
 
-# Spring actuator :
-	- http://localhost:8080/actuator
-
 # Lancement du projet (se positionner à la racine du projet) :
     - api : 
         - cd product-management-api
